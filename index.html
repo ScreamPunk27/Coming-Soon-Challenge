@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section class="landing-header">
+            <nav class="nav-mobile">
+                <img src="assets/img/logo.svg" alt="logo" srcset="">
+            </nav>
+            <div class="container-img">
+                <picture>
+                    <source media="(min-width: 800px)" srcset="assets/img/hero-desktop.jpg">
+                    <img src="assets/img/hero-mobile.jpg" alt="image">
+                </picture>
+            </div>
+        </section>
+        <section class="landing-body">
+            <nav class="nav-desktop">
+                <img src="assets/img/logo.svg" alt="logo" srcset="">
+            </nav>
+            <h1>We're <span>coming soon</span></h1>
+            <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay-up-to-date with announcements and our launch deals.</p>
+            <form id="form" action="">
+                <div class="form-container">
+                    <div class="input-container">
+                        <input type="email" name="" id="input-mail" placeholder="Email Address">
+                        <img src="assets/img/icon-error.svg" alt="icon-input" srcset="" id="icon-error">
+                    </div>
+                    <button><img src="assets/img/icon-arrow.svg" alt="" srcset="" id="btn-submit"></button>
+                </div>
+                <p id="warning-msg">Please provide a valid email</p>
+            </form>
+        </section>
+    </main>
+    <script src="js/source.js"></script>
+</body>
+</html>
